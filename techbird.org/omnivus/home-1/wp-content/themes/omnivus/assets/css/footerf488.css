@@ -1,0 +1,53 @@
+.footer-area {
+    position: relative;
+}
+
+.footer-area-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-area-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+}
+
+.footer-bottom {
+    position: relative;
+    border-top: 2px solid rgba(121, 113, 175, 0.1);
+}
+
+.footer-bottom-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* ----------------------
+    FOOER ELEMENT STYLE
+------------------------ */
+.footer-area a {
+    color: #c2d1e2;
+}
+
+.footer-area a:hover {
+    color: var(--site_main_color);
+}
+
+.footer-logo {
+    margin-bottom: 35px;
+}
+
+.footer-bottom-area {
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
+    position: relative;
+}

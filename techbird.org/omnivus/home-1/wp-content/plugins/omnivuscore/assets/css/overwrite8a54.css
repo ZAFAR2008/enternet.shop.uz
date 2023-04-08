@@ -1,0 +1,50 @@
+/* ----------------------------
+    KC OVERWRITE CSS
+---------------------------- */
+a.kc_button {background: #f22874 none repeat scroll 0 0;border-radius: 3px;box-shadow: 0 16 32px rgba(0, 0, 0, 0.);color: #ffffff;display: inline-block;font-size: 14px;letter-spacing: 1px;margin-top: 30px;min-width: 150px;padding: 12px 30px;text-align: center;text-transform: capitalize;font-weight: 600;}a.kc_button:focus,a.kc_button:hover {color: #f22874;background: #ffffff;border-color: #ffffff;}.kc-cta-button > a {letter-spacing: 1px;}
+/*----------------------------
+    READMORE
+-----------------------------*/
+.read-more {background: #f22874;border-radius: 5px;box-shadow: 0 16 32px rgba(0, 0, 0, 0.2);color: #ffffff;display: inline-block;font-size: 14px;font-weight: 600;letter-spacing: 2px;overflow: hidden;padding: 15px 30px;position: relative;text-transform: capitalize;z-index: 9;}.read-more::before,.read-more::after {background: #f22874;content: "";height: 100%;left: 0;position: absolute;top: 0;-webkit-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;width: 101%;z-index: -2;}.read-more::after {background: #f22874;z-index: -1;opacity: 0;}.read-more:hover:after {opacity: 1;}.read-more:hover {color: #f22874;background: #ffffff;}
+/* ---------------------------
+    KC MAP
+----------------------------- */
+.kc-google-maps iframe {border: 0 none;}
+
+/* ---------------------------
+    KC COUNTER BOX
+----------------------------- */
+.kc_counter_box {padding: 90px 20px;background: #ffffff;display: flex;align-items: center;justify-content: center;flex-direction: column;box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);transition: background 0.5s;position: relative;z-index: 1;}.kc_counter_box .counterup {margin-bottom: 30px;position: relative;}.kc_counter_box .counterup:after {display: inline-block;content: "+";position: relative;top: -5px;}.kc_counter_box h4 {margin-bottom: 0 !important;}.kc_counter_box:hover:before {opacity: 1;}.kc_counter_box:hover h4,.kc_counter_box:hover .counterup,.kc_counter_box:hover i {color: #ffffff;}
+
+/* ----------------------------
+    KC CONTACT
+------------------------------ */
+.wpcf7-response-output {overflow: hidden;}
+.contact-form input.wpcf7-form-control.wpcf7-submit {
+    width: auto;
+    padding: 15px 40px;
+    min-width: 150px;
+    transition: 0.3s;
+    border-radius: 50px;
+}
+
+/*---------------------------------
+    2. LINK CHECK FORM
+----------------------------------*/
+.website-cheking-form {border-radius: 50px;border: 2px solid #423686;padding: 10px;position: relative;z-index: 1;box-shadow: 5px 5px 0 0 #f22874;overflow: hidden;}/*.website-cheking-form input[type="url"],.website-cheking-form input[type="email"],.website-cheking-form input[type="submit"],.website-cheking-form input[type="url"]:focus,.website-cheking-form input[type="email"]:focus{border-radius: 50px;width: 100%;height: 60px;margin-bottom: 0;padding: 0 15px;text-align: center;color: #ffffff;background: transparent;border: 2px solid #423685;transition: 0.3s;}*/.website-cheking-form input[type="url"],.website-cheking-form input[type="email"],.website-cheking-form input[type="submit"],.website-cheking-form input[type="url"]:focus,.website-cheking-form input[type="email"]:focus {float: left;width: calc(40% - 15px);display: inline-block;height: 60px;overflow: hidden;border-radius: 50px;margin-right: 15px;text-align: center;background: transparent;color: #fff;border: 2px solid #fff;transition: 0.3s;}.website-cheking-form .ajax-loader {display: none !important;}input.wpcf7-form-control.wpcf7-submit {line-height: 1.6;color: #ffffff;background: #f22874;border: 0;letter-spacing: 1px;width: 20%;margin-right: 0;box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);}input.wpcf7-form-control.wpcf7-submit:hover,input.wpcf7-form-control.wpcf7-submit:focus {background: #ffffff;color: #f22874;}@media only screen and (max-width: 767px) {.website-cheking-form {text-align: center;}.website-cheking-form input[type="url"],.website-cheking-form input[type="url"]:focus {float: left;width: calc(50% - 10px);margin: 0;}.website-cheking-form input[type="email"],.website-cheking-form input[type="email"]:focus {width: calc(50% - 10px);float: right;margin: 0;}input.wpcf7-form-control.wpcf7-submit {width: 50%;display: inline-block;margin: 20px auto 0;float: none;}}@media only screen and (max-width: 480px) {.website-cheking-form {text-align: center;}.website-cheking-form input[type="url"],.website-cheking-form input[type="url"]:focus {float: none;width: 100%;}.website-cheking-form input[type="email"],.website-cheking-form input[type="email"]:focus {float: none;width: 100%;margin-top: 20px;}input.wpcf7-form-control.wpcf7-submit {width: 150px;display: inline-block;margin: 20px auto 0;float: none;}}
+/*---------------------
+    CONTACT FORM
+------------------------*/
+.contact-form label {color: #ffffff;font-size: 20px;font-weight: 600;width: 100%;}.contact-form input,.contact-form textarea {margin-bottom: 30px;max-height: 140px;min-height: 40px;padding: 10px;}.contact-form button {background: #ffffff none repeat scroll 0 0;border: 2px solid;border-radius: 5px;color: #f22874;font-weight: 600;padding: 8px 20px;-webkit-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;}.contact-form button:hover {background: #f22874 none repeat scroll 0 0;border-color: #f22874;color: #ffffff;}.form-control:focus {border: 1px solid #f22874;-webkit-box-shadow: 0 0 0;box-shadow: 0 0 0;}
+/*--------------------------------
+    8. FAQS AREA
+---------------------------------*/
+.panel.panel-default {margin-bottom: 30px;}.panel-default > .panel-heading {background-color: #ecf1fa;}.active .accordion-toggle {color: #f22874;}.panel-body {border-top: 0;}.accordion-toggle .panel-title .fa-angle-down {margin-top: 5px;-webkit-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;}.accordion-toggle.collapsed .panel-title .fa-angle-down {-webkit-transform: rotate(-180deg);transform: rotate(-180deg);}.kc_accordion_wrapper,.kc_tabs {margin-bottom: 0;}.kc_accordion_section.group{padding-bottom:20px;}.kc_accordion_section.group:last-child {padding-bottom: 0;}
+
+/* -------------------------------
+	9. KC TAB
+--------------------------------- */
+.kc_tabs > .kc_wrapper > .kc_tabs_nav {margin-bottom: 50px !important;}.kc_tabs > .kc_wrapper > .kc_tabs_nav {margin: 0;padding: 0;list-style: none;background: inherit;height: auto;text-align: center;float: inherit;border-bottom: 2px solid #e3e4ff !important;}.kc_tabs > .kc_wrapper > .kc_tabs_nav > li {text-align: center;border: 0;display: inline-block;float: inherit;position: relative;overflow: inherit;}.kc_tabs > .kc_wrapper > .kc_tabs_nav > li:first-child {border-radius: 5px 0 0 5px;}.kc_tabs > .kc_wrapper > .kc_tabs_nav > li:last-child {border-radius: 0 5px 5px 0;}.kc_tabs > .kc_wrapper > .kc_tabs_nav > li:before {content: "";height: 50px;width: 2px;background: #ffe1ec;position: absolute;left: 0;top: 50%;transform: translateY(-50%);}.kc_tabs > .kc_wrapper > .kc_tabs_nav > li:first-child:before {display: none;}.kc_tabs > .kc_wrapper > .kc_tabs_nav > li:after {content: "";height: 4px;width: 100%;background: #f22874;position: absolute;left: 0;bottom: -1px;transition: 0.3s;opacity: 0;}.kc_tabs > .kc_wrapper > .kc_tabs_nav > li:hover:after,.kc_tabs > .kc_wrapper > .kc_tabs_nav > li.ui-tabs-active:after{opacity: 1;}.kc_tabs_nav > li > a,.nav-pills > li > a {padding: 6px 35px;background: #ffffff;}.kc_tabs_nav .ui-tabs-active a,.kc_tabs_nav li:hover,.kc_tabs_nav li a:hover {background: transparent;}.kc_tabs_nav li i {display: block;font-size: 40px;margin: 0 auto;padding-top: 10px;text-align: center;}.kc_tabs_nav ~ .kc_tab {background: inherit !important;padding: 0 !important;overflow: inherit !important;display: none;}.kc_tabs_nav ~ .kc_tab.ui-tabs-body-active {height: inherit !important;display: block;}.kc_tabs > .kc_wrapper > .kc_tabs_nav,.kc_tabs_nav ~ .kc_tab.ui-tabs-body-active {background-color: #ffffff;}.kc_tabs_nav ~ .kc_tab .kc_tab_content {padding: 0;}@media only screen and (max-width: 768px){.kc_tabs > .kc_wrapper > .kc_tabs_nav > li:before {display: none;}}
+
+/*-------------------------KC PRICE--------------------------*/
+.kc-pricing-tables.kc-pricing-layout-2 {padding: 40px 0;position: relative;box-shadow: inherit;border: 1px solid #f7f9fc;box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.16);}.kc-pricing-tables.kc-pricing-layout-2:before {position: absolute;left: 0;top: 0;width: 100%;height: 3px;background: #f22874;content: "";transition: 0.3s;opacity: 0;}.kc-pricing-tables.kc-pricing-layout-2:hover:before,.kc-pricing-tables.kc-pricing-layout-2.active:before {opacity: 1;}.kc-pricing-tables.kc-pricing-layout-2 .content-title {text-transform: capitalize;font-size: 24px;margin-bottom: 20px;}.kc-pricing-layout-2 .header-pricing .kc-pricing-price span {color: #f22874;font-size: 52px;font-weight: 600;}.kc-pricing-layout-2 .header-pricing .kc-pricing-price span.content-duration {font-size: 16px !important;color: rgba(0, 0, 0, 0.4);}.kc-pricing-layout-2 .content-desc li:nth-of-type(2n+1) {background: inherit;}.kc-pricing-layout-2 .content-button a {background: #f22874;border: 0;padding: 15px 30px;font-size: 14px;letter-spacing: 1px;font-weight: 600;margin-top: 30px;border-radius: 50px;box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);}.kc-pricing-layout-2 .content-button a:hover {background: #f22874;color: #ffffff;}.kc-pricing-tables.kc-pricing-layout-2:hover,.kc-pricing-tables.kc-pricing-layout-2.active {box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.16);background: #ffffff;}

@@ -1,0 +1,58 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 25 Mar 2023 15:25:05 at https://techbird.org/omnivus/home-1/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://techbird.org/omnivus/home-1/ -O1 "E:\Games\MRIT" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:25:08	Warning: 	File not parsed, looks like binary: https://techbird.org/robots.txt
+15:31:04	Warning: 	Retry after error -4 (No data (connection closed)) at link https://techbird.org/omnivus/home-1/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.11.5 (from https://techbird.org/omnivus/home-1/)
+15:31:04	Error: 	"Not Found" (404) at link https://techbird.org/omnivus/home-1/wp-content/plugins/ultimate-addon/assets/nature-sprite.png (from https://techbird.org/omnivus/home-1/wp-content/plugins/ultimate-addon/assets/css/widgets.css?ver=1.2.0)
+15:31:04	Error: 	"Not Found" (404) at link https://techbird.org/omnivus/home-1/wp-content/plugins/ultimate-addon/assets/urban-sprite.png (from https://techbird.org/omnivus/home-1/wp-content/plugins/ultimate-addon/assets/css/widgets.css?ver=1.2.0)
+15:31:04	Error: 	"Not Found" (404) at link https://techbird.org/omnivus/home-1/wp-content/plugins/ultimate-addon/assets/nature-sprite-2.png?raw=true (from https://techbird.org/omnivus/home-1/wp-content/plugins/ultimate-addon/assets/css/widgets.css?ver=1.2.0)
+15:31:04	Error: 	"Not Found" (404) at link https://techbird.org/omnivus/home-1/wp-content/plugins/omnivuscore/assets/img/owl.video.play.png (from https://techbird.org/omnivus/home-1/wp-content/plugins/omnivuscore/assets/css/owl.carousel.css?ver=1.0.0)
+15:31:04	Error: 	"Not Found" (404) at link https://techbird.org/omnivus/home-1/wp-content/themes/omnivus/assets/css/fonts/glyphicons-halflings-regular.eot (from https://techbird.org/omnivus/home-1/wp-content/themes/omnivus/assets/css/plugins/bootstrap.min.css?ver=3.3.7)
+15:31:04	Error: 	"Not Found" (404) at link https://techbird.org/omnivus/home-1/wp-content/themes/omnivus/assets/css/fonts/glyphicons-halflings-regular.eot? (from https://techbird.org/omnivus/home-1/wp-content/themes/omnivus/assets/css/plugins/bootstrap.min.css?ver=3.3.7)
+15:31:04	Error: 	"Not Found" (404) at link https://techbird.org/omnivus/home-1/wp-content/themes/omnivus/assets/css/fonts/glyphicons-halflings-regular.woff2 (from https://techbird.org/omnivus/home-1/wp-content/themes/omnivus/assets/css/plugins/bootstrap.min.css?ver=3.3.7)
+15:31:04	Error: 	"Not Found" (404) at link https://techbird.org/omnivus/home-1/wp-content/themes/omnivus/assets/css/fonts/glyphicons-halflings-regular.woff (from https://techbird.org/omnivus/home-1/wp-content/themes/omnivus/assets/css/plugins/bootstrap.min.css?ver=3.3.7)
+15:31:04	Error: 	"Not Found" (404) at link https://techbird.org/omnivus/home-1/wp-content/themes/omnivus/assets/css/fonts/glyphicons-halflings-regular.ttf (from https://techbird.org/omnivus/home-1/wp-content/themes/omnivus/assets/css/plugins/bootstrap.min.css?ver=3.3.7)
+15:31:04	Error: 	"Not Found" (404) at link https://techbird.org/omnivus/home-1/wp-content/themes/omnivus/assets/css/fonts/glyphicons-halflings-regular.svg (from https://techbird.org/omnivus/home-1/wp-content/themes/omnivus/assets/css/plugins/bootstrap.min.css?ver=3.3.7)
+15:31:04	Warning: 	Retry after error -4 (No data (connection closed)) at link https://techbird.org/omnivus/home-1/wp-content/themes/omnivus/assets/fonts/themify.eot?-fvbane (from https://techbird.org/omnivus/home-1/wp-content/themes/omnivus/assets/css/icons/themify-icons.css?ver=1.0.0)
+15:31:06	Error: 	"Not Found" (404) at link https://techbird.org/omnivus/home-1/wp-content/plugins/ultimate-addon/assets/fonts/slick.eot (from https://techbird.org/omnivus/home-1/wp-content/plugins/ultimate-addon/assets/css/slick.min.css?ver=6.0.3)
+15:31:06	Error: 	"Not Found" (404) at link https://techbird.org/omnivus/home-1/wp-content/plugins/ultimate-addon/assets/fonts/slick.eot? (from https://techbird.org/omnivus/home-1/wp-content/plugins/ultimate-addon/assets/css/slick.min.css?ver=6.0.3)
+15:31:06	Error: 	"Not Found" (404) at link https://techbird.org/omnivus/home-1/wp-content/plugins/ultimate-addon/assets/fonts/slick.woff (from https://techbird.org/omnivus/home-1/wp-content/plugins/ultimate-addon/assets/css/slick.min.css?ver=6.0.3)
+15:31:06	Error: 	"Not Found" (404) at link https://techbird.org/omnivus/home-1/wp-content/plugins/ultimate-addon/assets/fonts/slick.ttf (from https://techbird.org/omnivus/home-1/wp-content/plugins/ultimate-addon/assets/css/slick.min.css?ver=6.0.3)
+15:31:06	Error: 	"Not Found" (404) at link https://techbird.org/omnivus/home-1/wp-content/plugins/ultimate-addon/assets/fonts/slick.svg (from https://techbird.org/omnivus/home-1/wp-content/plugins/ultimate-addon/assets/css/slick.min.css?ver=6.0.3)
+15:31:08	Warning: 	Moved Permanently for https://techbird.org/omnivus/home-1/?p=586
+15:31:08	Warning: 	File has moved from https://techbird.org/omnivus/home-1/?p=586 to https://techbird.org/omnivus/home-1/about/
+15:31:08	Warning: 	Moved Permanently for https://techbird.org/omnivus/home-1/?p=588
+15:31:08	Warning: 	File has moved from https://techbird.org/omnivus/home-1/?p=588 to https://techbird.org/omnivus/home-1/services/
+15:31:08	Warning: 	Moved Permanently for https://techbird.org/omnivus/home-1/?p=1885
+15:31:08	Warning: 	File has moved from https://techbird.org/omnivus/home-1/?p=1885 to https://techbird.org/omnivus/home-1/services/services-details/
+15:31:08	Warning: 	Moved Permanently for https://techbird.org/omnivus/home-1/?p=2662
+15:31:08	Warning: 	File has moved from https://techbird.org/omnivus/home-1/?p=2662 to https://techbird.org/omnivus/home-1/team/
+15:31:08	Warning: 	Moved Permanently for https://techbird.org/omnivus/home-1/?p=2657
+15:31:08	Warning: 	File has moved from https://techbird.org/omnivus/home-1/?p=2657 to https://techbird.org/omnivus/home-1/pricing/
+15:31:08	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://techbird.org/omnivus/home-1/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftechbird.org%2Fomnivus%2Fhome-1%2Fpricing%2F&format=xml (from https://techbird.org/omnivus/home-1/pricing/)
+15:31:08	Warning: 	Moved Permanently for https://techbird.org/omnivus/home-1/?p=2640
+15:31:08	Warning: 	File has moved from https://techbird.org/omnivus/home-1/?p=2640 to https://techbird.org/omnivus/home-1/faq/
+15:31:46	Warning: 	Moved Permanently for https://techbird.org/omnivus/home-1/?p=592
+15:31:46	Warning: 	File has moved from https://techbird.org/omnivus/home-1/?p=592 to https://techbird.org/omnivus/home-1/contact/
+15:31:46	Warning: 	Moved Permanently for https://techbird.org/omnivus/home-1/?p=2007
+15:31:46	Warning: 	File has moved from https://techbird.org/omnivus/home-1/?p=2007 to https://techbird.org/omnivus/home-1/lorem-ipsum-dolor-sit-amet-consecte-cing-elit-sed-do-eiusmod-tempor-2/
+15:31:46	Error: 	"Method Not Allowed" (405) at link https://techbird.org/omnivus/home-1/xmlrpc.php (from https://techbird.org/omnivus/home-1/lorem-ipsum-dolor-sit-amet-consecte-cing-elit-sed-do-eiusmod-tempor-2/)
+15:31:46	Warning: 	Moved Permanently for https://techbird.org/omnivus/home-1/?p=2008
+15:31:46	Warning: 	File has moved from https://techbird.org/omnivus/home-1/?p=2008 to https://techbird.org/omnivus/home-1/magna-aliqua-ut-enim-ad-minim-venia-m-quis-nostrud-exercitation-ullamco-2/
+15:31:46	Warning: 	Moved Permanently for https://techbird.org/omnivus/home-1/?p=2006
+15:31:46	Warning: 	File has moved from https://techbird.org/omnivus/home-1/?p=2006 to https://techbird.org/omnivus/home-1/in-reprehenderit-in-voluptate-velit-esse-cillum-dolore-eu-fugiat-nulla-pariatur/
+15:31:46	Warning: 	Moved Permanently for https://techbird.org/omnivus/home-1/?p=2005
+15:31:46	Warning: 	File has moved from https://techbird.org/omnivus/home-1/?p=2005 to https://techbird.org/omnivus/home-1/magna-aliqua-ut-enim-ad-minim-venia-m-quis-nostrud-exercitation-ullamco/
+15:31:46	Warning: 	Moved Permanently for https://techbird.org/omnivus/home-1/?p=2004
+15:31:46	Warning: 	File has moved from https://techbird.org/omnivus/home-1/?p=2004 to https://techbird.org/omnivus/home-1/adipisicing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore/
+15:31:46	Warning: 	Moved Permanently for https://techbird.org/omnivus/home-1/?p=1995
+15:31:46	Warning: 	File has moved from https://techbird.org/omnivus/home-1/?p=1995 to https://techbird.org/omnivus/home-1/lorem-ipsum-dolor-sit-amet-consecte-cing-elit-sed-do-eiusmod-tempor/
+15:31:46	Warning: 	Retry after error -4 (No data (connection closed)) at link https://techbird.org/omnivus/home-1/wp-json/wp/v2/tags/24 (from https://techbird.org/omnivus/home-1/tag/ux/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 6 minutes 43 seconds : 363 links scanned, 329 files written (15304506 bytes overall) [7872108 bytes received at 19533 bytes/sec], 11201351 bytes transferred using HTTP compression in 244 files, ratio 30%, 17.3 requests per connection
+(16 errors, 31 warnings, 0 messages)

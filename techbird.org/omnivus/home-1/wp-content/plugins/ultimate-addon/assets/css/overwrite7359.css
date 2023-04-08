@@ -1,0 +1,97 @@
+
+.give-donation-amount > span,
+.give-donation-amount > input,
+#give-final-total-wrap > span {
+    height: 100% !important;
+    align-items: center;
+    display: inline-flex;
+    min-height: 50px;
+    border: 2px solid #00BAA3 !important;
+    margin-left: -2px !important;
+}
+
+.give-donation-amount {
+    min-height: 50px !important;
+}
+
+.give-wrap.container {
+    padding: 100px 0;
+}
+.give-sidebar.give-single-form-sidebar-left {
+    width: 100% !important;
+    margin-bottom: 20px;
+}
+
+.single .summary.entry-summary {
+    width: 100% !important;
+}
+
+
+
+.give-form-content-wrap ul,
+.give-form-content-wrap ol {
+	padding-left: 20px;margin: 20px 0;
+}
+
+[id*=give-form] div.give-form-content-wrap {
+    margin-bottom: 50px;
+}
+
+.single .give-form button {
+    padding: 12px 30px;
+}
+
+.single .give-form button,
+.single .give-submit {
+    padding: 12px 30px !important;
+    height: auto !important;
+    height: 50px !important;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    background: #00BAA3;
+    color: #fff;
+    border: 0;
+    box-shadow: 0 8px 16px rgba(0,0,0,.08);
+}
+
+
+
+.single .give-final-total-amount,
+.single .give-donation-total-label,
+.single .give-amount-top,
+.single .give-currency-symbol {
+	padding: 7px 20px !important;height: 50px !important;
+	-webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.single .give-donation-total-label,
+.single .give-currency-symbol{
+    background: #00BAA3 !important;
+    color: #fff !important;
+    border: 0 !important;
+}
+.single .give-final-total-amount,
+.single .give-amount-top{
+	border: 2px solid #00BAA3 !important;
+}
+.give-form ul,
+.give-form ol {
+    margin: 20px;
+}
+.single .give-form button:hover,
+.single .give-submit:hover,
+.single .give-form button.give-default-level {
+    background: #FF5959;
+}
+
+table#give_user_history .give-donation-amount {
+    border: 0 !important;
+}
+.give-progress-bar {
+    height: 10px !important;
+}
+.give-progress-bar>span{
+	background: #00BAA3 !important;
+}
